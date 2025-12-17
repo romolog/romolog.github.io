@@ -510,6 +510,8 @@ td {
 	.projects .projects-grid,
 	.showcase-grid {
 		grid-template-columns: 1fr;
+		margin: auto;
+		width: 100%;
 	}
 
 
