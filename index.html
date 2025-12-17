@@ -1,0 +1,1064 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Roman Ponomarev Portfolio</title>
+	<link rel="stylesheet" href="css/style.css" />
+	<link rel="stylesheet" href="fontawesome-free-7.1.0-web/css/all.min.css" />
+	<script src="fontawesome-free-7.1.0-web/js/all.js"></script>
+	<link rel="shortcut icon" href="images/favicon.png" type="image/x-icon" />
+</head>
+<body>
+	<nav class="navbar" id="navbar">
+		<div class="container">
+			<div class="avatar">
+				<img src="images/me.jpg" alt="logo" />
+			</div>
+
+			<div class="main-menu">
+				<ul>
+					<li>
+						<a class="navlink" href='#' onclick="scrollToSection('showcase'); return false;">Showcase</a>
+					</li>
+					<li>
+						<a class="navlink" href='#' onclick="scrollToSection('devtools'); return false;">Dev Tools</a>
+					</li>
+					<li>
+						<a class="navlink" href='#' onclick="scrollToSection('C_projects'); return false;">C</a>
+					</li>					
+					<li>
+						<a class="navlink" href='#' onclick="scrollToSection('CPP_projects'); return false;">C++</a>
+					</li>
+					<li>
+						<a class="btn btn-yel" href="https://www.linkedin.com/in/romolog" target="_blank"> 
+							<i class="fab fa-linkedin"></i>LinkedIn
+						</a>
+					</li>
+				</ul>
+			</div>
+
+			<!-- Hamburger Button -->
+			<button class="hamburger-button">
+				<div class="hamburger-line"></div>
+				<div class="hamburger-line"></div>
+				<div class="hamburger-line"></div>
+			</button>
+
+			<div class="mobile-menu">
+				<ul>
+					<li>
+						<a class="navlink" href='#' onclick="scrollToSection('showcase'); return false;">Showcase</a>
+					</li>
+					<li>
+						<a class="navlink" href='#' onclick="scrollToSection('devtools'); return false;">Dev Tools</a>
+					</li>
+					<li>
+						<a class="navlink" href='#' onclick="scrollToSection('C_projects'); return false;">C</a>
+					</li>					
+					<li>
+						<a class="navlink" href='#' onclick="scrollToSection('CPP_projects'); return false;">C++</a>
+					</li>
+					<li>
+						<a class="btn btn-yel" href="https://www.linkedin.com/in/romolog" target="_blank"> 
+							<i class="fab fa-linkedin"></i>LinkedIn
+						</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+<!-- HERO -->
+	<section class="hero">
+		<div class="container mb-40" id="intro">
+			<div class="hero-content">
+				<h1 class="hero-heading text-xxl">
+					Roman Ponomarev
+					<br>
+					C / C++ Software Engineer
+				</h1>
+				<div class="mb-40 desktop">
+				</div>
+				<p class="hero-text">
+					Hello and Welcome!
+				</p>
+
+				<p class="hero-text">
+					Here are short descriptions and links to 
+					<br>
+					my C and C++ projects and developer tools.
+					<br> 
+				</p>
+
+				<!-- <p class="hero-text desktop">
+					Feel free to click the “LinkedIn” button to get in touch with me. 
+				</p> -->
+
+				<p class="hero-text mobile">
+					Feel free to click the “LinkedIn” button 
+					<br class="mobile-inline">
+					to get in touch with me. 
+				</p>
+
+			</div>
+		</div>
+	</section>
+
+<!-- SHOWCASE -->
+	<section class="projects developer" id="showcase">
+		<div class="container mb-40">
+			<div class="content-right">
+				<h3 class="projects-heading text-xxl">Showcase Projects</h3>
+			</div>
+			
+			<div class="showcase-grid">
+				<div class="card">
+					<h1>
+						C
+					</h1>
+					<h4>
+						Graphic 3D Maze
+					</h4>
+					<p>
+						I developed a first-person 3D labirinth:
+					</p>
+					<hr class="hr-drk">
+					<ul>
+						<li>
+							<i class="fa-solid fa-check"></i> 
+							Parsing input maps
+						</li>
+						<li>
+							<i class="fa-solid fa-check"></i>  
+							Geometry and Maths
+						</li>
+						<li>
+							<i class="fa-solid fa-check"></i>
+							Raycasting algorithm from scratch, enabling the first-person view
+						</li>
+						<li>
+							<i class="fa-solid fa-check"></i>
+							Rendering using MiniLibX library 
+						</li>
+						<hr class="hr-drk">
+						<li>
+							<i class="fa-solid fa-wrench"></i>
+							Bash scripted tests
+						</li>
+						<li>
+							<i class="fa-solid fa-wrench"></i>
+							Valgrind controlled debugging 
+						</li>
+						<li>
+							<i class="fa-solid fa-wrench"></i>
+							Makefile for automated build 
+						</li>
+					</ul>
+
+					
+					<a 	class="btn btn-mid" 
+						href="https://github.com/romolog/C__graphics__3D_maze_2025" 
+						target="_blank"
+					>
+						<i class="fa-solid fa-arrow-right"></i> 
+						repo at Github
+					</a>
+				</div>
+				<!-- END CARD -->
+
+				<div class="card">
+					<h1>
+						C++
+					</h1>
+					<h4>
+						Webserver
+					</h4>
+					<p>
+						I wrote a web server from scratch to serve a static website:
+					</p>
+					<hr class="hr-drk">
+					<ul>
+						<li>
+							<i class="fa-solid fa-check"></i>  
+							Following RFC standards
+						</li>
+						<li>
+							<i class="fa-solid fa-check"></i>  
+							Parsing input configuration file
+						</li>
+						<li>
+							<i class="fa-solid fa-check"></i>  
+							Network programming
+						</li>
+						<li>
+							<i class="fa-solid fa-check"></i>
+							Easily scalable architechture 
+						</li>
+						<hr class="hr-drk">
+						<li>
+							<i class="fa-solid fa-wrench"></i>
+							Bash scripted tests
+						</li>
+						<li>
+							<i class="fa-solid fa-wrench"></i>
+							Valgrind, ASan, UBSan, TSan controlled debugging 
+						</li>
+						<li>
+							<i class="fa-solid fa-wrench"></i>
+							Makefile for automated build 
+						</li>
+					</ul>
+
+
+					<a 	class="btn btn-mid" 
+						href="https://github.com/romolog/CPP__webserver__simple_2025" 
+						target="_blank"
+					>
+						<i class="fa-solid fa-arrow-right"></i> 
+						repo at Github
+					</a>
+				</div>
+				<!-- END CARD -->
+			</div>
+		</div>
+	</section>
+<!-- END SHOWCASE -->
+
+<!-- TOOLS -->
+	<section class="projects bg-lgt" id="devtools">
+		<div class="container mb-40">
+			<h3 class="projects-heading text-xxl" >Developer Tools</h3>
+			<div class="content-center">
+				<table>
+					<thead>
+						<th>Section</th>
+						<th>Tool</th>
+						<th colspan="2">Proficiency</th>
+					</thead>
+					<tbody>
+						<tr class="divider">
+							<td colspan="4"></td>
+						</tr>
+						<tr>
+							<td>
+								<!-- <i class="fa-brands fa-linux"></i> -->
+								<i class="fa-brands fa-linux fa-xl"></i>
+								Linux
+							</td>
+							<td>Signals, Proccesses, Threads, IPC, File&nbsp;I&nbsp;/&nbsp;O, Sockets</td>
+							<td>Full professional proficiency</td>
+							<td class="desktop">
+								<span class="fa-layers fa-fw">
+									<i class="fa-solid fa-star icon-fill"></i>
+									<i class="fa-regular fa-star icon-border"></i>
+								</span>
+								<span class="fa-layers fa-fw">
+									<i class="fa-solid fa-star icon-fill"></i>
+									<i class="fa-regular fa-star icon-border"></i>
+								</span>
+								<span class="fa-layers fa-fw">
+									<i class="fa-solid fa-star icon-fill"></i>
+									<i class="fa-regular fa-star icon-border"></i>
+								</span>
+								<span class="fa-layers fa-fw">
+									<i class="fa-solid fa-star icon-fill"></i>
+									<i class="fa-regular fa-star icon-border"></i>
+								</span>
+								<span class="fa-layers fa-fw">
+									<i class="fa-solid fa-star icon-fill"></i>
+									<i class="fa-regular fa-star icon-border"></i>
+								</span> 
+							</td>
+						</tr>
+						<tr>
+							<td>TDD</td>
+							<td>CMocka</td>
+							<td>User</td>
+							<td class="desktop">
+								<span class="fa-layers fa-fw">
+									<i class="fa-solid fa-star icon-fill"></i>
+									<i class="fa-regular fa-star icon-border"></i>
+								</span>
+								<span class="fa-layers fa-fw">
+									<i class="fa-solid fa-star icon-fill"></i>
+									<i class="fa-regular fa-star icon-border"></i>
+								</span>
+								<span class="fa-layers fa-fw">
+									<i class="fa-solid fa-star icon-fill"></i>
+									<i class="fa-regular fa-star icon-border"></i>
+								</span>
+								<i class="far fa-star"></i>
+								<i class="far fa-star"></i> 
+							</td>
+						</tr>
+						<tr>
+							<td>TDD</td>
+							<td>Google tests</td>
+							<td>User</td>
+							<td class="desktop">
+								<span class="fa-layers fa-fw">
+									<i class="fa-solid fa-star icon-fill"></i>
+									<i class="fa-regular fa-star icon-border"></i>
+								</span>
+								<span class="fa-layers fa-fw">
+									<i class="fa-solid fa-star icon-fill"></i>
+									<i class="fa-regular fa-star icon-border"></i>
+								</span>
+								<span class="fa-layers fa-fw">
+									<i class="fa-solid fa-star icon-fill"></i>
+									<i class="fa-regular fa-star icon-border"></i>
+								</span>
+								<i class="far fa-star"></i>
+								<i class="far fa-star"></i> 
+							</td>
+						</tr>
+						<tr>
+							<td>Debug</td>
+							<td>GDB</td>
+							<td>User</td>
+							<td class="desktop">
+								<span class="fa-layers fa-fw">
+									<i class="fa-solid fa-star icon-fill"></i>
+									<i class="fa-regular fa-star icon-border"></i>
+								</span>
+								<span class="fa-layers fa-fw">
+									<i class="fa-solid fa-star icon-fill"></i>
+									<i class="fa-regular fa-star icon-border"></i>
+								</span>
+								<span class="fa-layers fa-fw">
+									<i class="fa-solid fa-star icon-fill"></i>
+									<i class="fa-regular fa-star icon-border"></i>
+								</span>
+								<i class="far fa-star"></i>
+								<i class="far fa-star"></i> 
+							</td>
+						</tr>
+						<tr>
+							<td>Debug</td>
+							<td>ASan / UBSan / TSan</td>
+							<td>Advanced user</td>
+							<td class="desktop">
+								<span class="fa-layers fa-fw">
+									<i class="fa-solid fa-star icon-fill"></i>
+									<i class="fa-regular fa-star icon-border"></i>
+								</span>
+								<span class="fa-layers fa-fw">
+									<i class="fa-solid fa-star icon-fill"></i>
+									<i class="fa-regular fa-star icon-border"></i>
+								</span>
+								<span class="fa-layers fa-fw">
+									<i class="fa-solid fa-star icon-fill"></i>
+									<i class="fa-regular fa-star icon-border"></i>
+								</span>
+								<span class="fa-layers fa-fw">
+									<i class="fa-solid fa-star icon-fill"></i>
+									<i class="fa-regular fa-star icon-border"></i>
+								</span>
+								<i class="far fa-star"></i> 
+							</td>
+						</tr>
+						<tr>
+							<td>Debug</td>
+							<td>Clang-Tidy</td>
+							<td>User</td>
+							<td class="desktop">
+								<span class="fa-layers fa-fw">
+									<i class="fa-solid fa-star icon-fill"></i>
+									<i class="fa-regular fa-star icon-border"></i>
+								</span>
+								<span class="fa-layers fa-fw">
+									<i class="fa-solid fa-star icon-fill"></i>
+									<i class="fa-regular fa-star icon-border"></i>
+								</span>
+								<span class="fa-layers fa-fw">
+									<i class="fa-solid fa-star icon-fill"></i>
+									<i class="fa-regular fa-star icon-border"></i>
+								</span>
+								<i class="far fa-star"></i>
+								<i class="far fa-star"></i> 
+							</td>
+						</tr>
+						<tr>
+							<td>Debug</td>
+							<td>Valgrind</td>
+							<td>Full professional proficiency</td>
+							<td class="desktop">
+								<span class="fa-layers fa-fw">
+									<i class="fa-solid fa-star icon-fill"></i>
+									<i class="fa-regular fa-star icon-border"></i>
+								</span>
+								<span class="fa-layers fa-fw">
+									<i class="fa-solid fa-star icon-fill"></i>
+									<i class="fa-regular fa-star icon-border"></i>
+								</span>
+								<span class="fa-layers fa-fw">
+									<i class="fa-solid fa-star icon-fill"></i>
+									<i class="fa-regular fa-star icon-border"></i>
+								</span>
+								<span class="fa-layers fa-fw">
+									<i class="fa-solid fa-star icon-fill"></i>
+									<i class="fa-regular fa-star icon-border"></i>
+								</span>
+								<span class="fa-layers fa-fw">
+									<i class="fa-solid fa-star icon-fill"></i>
+									<i class="fa-regular fa-star icon-border"></i>
+								</span> 
+							</td>
+						</tr>
+						<tr>
+							<td>Build</td>
+							<td>Make</td>
+							<td>Full professional proficiency</td>
+							<td class="desktop">
+								<span class="fa-layers fa-fw">
+									<i class="fa-solid fa-star icon-fill"></i>
+									<i class="fa-regular fa-star icon-border"></i>
+								</span>
+								<span class="fa-layers fa-fw">
+									<i class="fa-solid fa-star icon-fill"></i>
+									<i class="fa-regular fa-star icon-border"></i>
+								</span>
+								<span class="fa-layers fa-fw">
+									<i class="fa-solid fa-star icon-fill"></i>
+									<i class="fa-regular fa-star icon-border"></i>
+								</span>
+								<span class="fa-layers fa-fw">
+									<i class="fa-solid fa-star icon-fill"></i>
+									<i class="fa-regular fa-star icon-border"></i>
+								</span>
+								<span class="fa-layers fa-fw">
+									<i class="fa-solid fa-star icon-fill"></i>
+									<i class="fa-regular fa-star icon-border"></i>
+								</span>
+							</td>
+						</tr>
+						<tr>
+							<td>Build</td>
+							<td>CMake</td>
+							<td>User</td>
+							<td class="desktop">
+								<span class="fa-layers fa-fw">
+									<i class="fa-solid fa-star icon-fill"></i>
+									<i class="fa-regular fa-star icon-border"></i>
+								</span>
+								<span class="fa-layers fa-fw">
+									<i class="fa-solid fa-star icon-fill"></i>
+									<i class="fa-regular fa-star icon-border"></i>
+								</span>
+								<span class="fa-layers fa-fw">
+									<i class="fa-solid fa-star icon-fill"></i>
+									<i class="fa-regular fa-star icon-border"></i>
+								</span>
+								<i class="far fa-star"></i>
+								<i class="far fa-star"></i> 
+							</td>
+						</tr>
+						<tr>
+							<td>Version control</td>
+							<td>GIT, GitHub</td>
+							<td>Advanced user</td>
+							<td class="desktop">
+								<span class="fa-layers fa-fw">
+									<i class="fa-solid fa-star icon-fill"></i>
+									<i class="fa-regular fa-star icon-border"></i>
+								</span>
+								<span class="fa-layers fa-fw">
+									<i class="fa-solid fa-star icon-fill"></i>
+									<i class="fa-regular fa-star icon-border"></i>
+								</span>
+								<span class="fa-layers fa-fw">
+									<i class="fa-solid fa-star icon-fill"></i>
+									<i class="fa-regular fa-star icon-border"></i>
+								</span>
+								<span class="fa-layers fa-fw">
+									<i class="fa-solid fa-star icon-fill"></i>
+									<i class="fa-regular fa-star icon-border"></i>
+								</span>
+								<i class="far fa-star"></i> 
+							</td>
+						</tr>
+						<tr>
+							<td>Compilers</td>
+							<td>GCC, Clang</td>
+							<td>Full professional proficiency</td>
+							<td class="desktop">
+								<span class="fa-layers fa-fw">
+									<i class="fa-solid fa-star icon-fill"></i>
+									<i class="fa-regular fa-star icon-border"></i>
+								</span>
+								<span class="fa-layers fa-fw">
+									<i class="fa-solid fa-star icon-fill"></i>
+									<i class="fa-regular fa-star icon-border"></i>
+								</span>
+								<span class="fa-layers fa-fw">
+									<i class="fa-solid fa-star icon-fill"></i>
+									<i class="fa-regular fa-star icon-border"></i>
+								</span>
+								<span class="fa-layers fa-fw">
+									<i class="fa-solid fa-star icon-fill"></i>
+									<i class="fa-regular fa-star icon-border"></i>
+								</span>
+								<span class="fa-layers fa-fw">
+									<i class="fa-solid fa-star icon-fill"></i>
+									<i class="fa-regular fa-star icon-border"></i>
+								</span>
+							</td>
+						</tr>
+						<tr>
+							<td>Compiler toolchain</td>
+							<td>Assembler, Custom optimizations</td>
+							<td>User</td>
+							<td class="desktop">
+								<span class="fa-layers fa-fw">
+									<i class="fa-solid fa-star icon-fill"></i>
+									<i class="fa-regular fa-star icon-border"></i>
+								</span>
+								<span class="fa-layers fa-fw">
+									<i class="fa-solid fa-star icon-fill"></i>
+									<i class="fa-regular fa-star icon-border"></i>
+								</span>
+								<span class="fa-layers fa-fw">
+									<i class="fa-solid fa-star icon-fill"></i>
+									<i class="fa-regular fa-star icon-border"></i>
+								</span>
+								<i class="far fa-star"></i>
+								<i class="far fa-star"></i> 
+							</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+		</div>
+	</section>
+<!-- END TOOLS -->
+
+<!-- C PROJECTS  -->
+	<section class="projects bg-drk" id="C_projects">
+		<div class="container mb-40">
+			<h3 class="projects-heading text-xxl">C projects</h3>
+			<div class="projects-grid">
+
+				<!-- CARD-START -->
+				<div class="card">
+					<div class="card-heading">
+						<h4>Grahpic 3D Maze</h4>
+						<time datetime="2024-09">Apr 2025</time>
+					</div>
+					<p>
+						I developed a first-person 3D maze:
+					</p>
+					<hr class="hr-drk">
+					<ul>
+						<li>
+							<i class="fa-solid fa-check"></i>  
+							Parsing input maps
+						</li>
+						<li>
+							<i class="fa-solid fa-check"></i>  
+							Geometry and Maths
+						</li>
+						<li>
+							<i class="fa-solid fa-check"></i>  
+							Raycasting algorithm from scratch, enabling the first person view
+						</li>
+						<li>
+							<i class="fa-solid fa-check"></i>  
+							Rendering using MiniLibX library
+						</li>
+					</ul>
+					<a 	class="btn btn-mid" 
+						href="https://github.com/romolog/C__graphics__3D_maze_2025" 
+						target="_blank"
+					>
+						<i class="fa-solid fa-arrow-right"></i> 
+						repo at Github
+					</a>
+				</div>
+				<!-- CARD-END -->
+
+				<!-- CARD-START -->
+				<div class="card">
+					<div class="card-heading">
+						<h4>Multiple threads</h4>
+						<time datetime="2024-09">Feb 2025</time>
+					</div>
+					<p>
+						I wrote a classic "Philosophers" multithread project:
+						 <!-- to put hands on multithread programming: -->
+						
+					</p>
+					<hr class="hr-drk">
+					<ul>
+						<li>
+							<i class="fa-solid fa-check"></i>  
+							Concurrency
+						</li>
+						<li>
+							<i class="fa-solid fa-check"></i>  
+							Mutex to avoid race condition
+						</li>
+						<li>
+							<i class="fa-solid fa-check"></i>  
+							Atomic varialbles
+						</li>
+						<li>
+							<i class="fa-solid fa-check"></i>  
+							Testing and debugging multithread program
+						</li>
+					</ul>
+					<a 	class="btn btn-mid" 
+						href="https://github.com/romolog/C__multithreading__philosophers_2025" 
+						target="_blank"
+					>
+						<i class="fa-solid fa-arrow-right"></i> 
+						repo at Github
+					</a>
+				</div>
+				<!-- CARD-END -->
+
+				<!-- CARD-START -->
+				<div class="card">
+					<div class="card-heading">
+						<h4>Shell</h4>
+						<time datetime="2024-09">Jan 2025</time>
+					</div>
+					<p>
+						I developed a stripped down version of Bash shell:
+					</p>
+					<hr class="hr-drk">
+					<ul>
+						<li>
+							<i class="fa-solid fa-check"></i>  
+							Multiple proccess programming
+						</li>
+						<li>
+							<i class="fa-solid fa-check"></i>  
+							Following POSIX standards
+						</li>
+						<li>
+							<i class="fa-solid fa-check"></i>  
+							Kernel signals handling
+						</li>
+						<li>
+							<i class="fa-solid fa-check"></i>  
+							Environment variables handling
+						</li>
+						<li>
+							<i class="fa-solid fa-check"></i>  
+							Errors and return codes handling
+						</li>
+					</ul>
+					<a 	class="btn btn-mid" 
+						href="https://github.com/romolog/C__cli__minishell_2025" 
+						target="_blank"
+					>
+						<i class="fa-solid fa-arrow-right"></i> 
+						repo at Github
+					</a>
+				</div>
+				<!-- CARD-END -->
+
+				<!-- CARD-START -->
+				<div class="card">
+					<div class="card-heading">
+						<h4>Map 3D visualization</h4>
+						<time datetime="2024-09">Dec 2024</time>
+					</div>
+					<p>
+						I developed a graphic project, rendering 3D visualization of input map:
+					</p>
+					<hr class="hr-drk">
+					<ul>
+						<li>
+							<i class="fa-solid fa-check"></i>  
+							Memory management and optimisation
+						</li>
+						<li>
+							<i class="fa-solid fa-check"></i>  
+							Implementation of Xiaolin Wu's line algorithm
+						</li>
+						<!-- <li>
+							<i class="fa-solid fa-check"></i>  
+							First use of graphic library
+						</li> -->
+
+					</ul>
+					<a 	class="btn btn-mid" 
+						href="https://github.com/romolog/C__graphics__3D_visualization_2024" 
+						target="_blank"
+					>
+						<i class="fa-solid fa-arrow-right"></i> 
+						repo at Github
+					</a>
+				</div>
+				<!-- CARD-END -->
+
+				<!-- CARD-START -->
+				<div class="card">
+					<div class="card-heading">
+						<h4>fgets()</h4>
+						<time datetime="2024-09">Oct 2024</time>
+					</div>
+					<p>
+						I wrote a stripped down version of fgets():
+					</p>
+					<hr class="hr-drk">
+					<ul>
+						<li>
+							<i class="fa-solid fa-check"></i>  
+							Memory management
+						</li>
+						<li>
+							<i class="fa-solid fa-check"></i>  
+							Static variable
+						</li>
+						<li>
+							<i class="fa-solid fa-check"></i>  
+							"Under the hood" experience
+						</li>
+						<li>
+							<i class="fa-solid fa-check"></i>  
+							First Valgrind debugging
+						</li>
+					</ul>
+					<a 	class="btn btn-mid" 
+						href="https://github.com/romolog/C__under_the_hood__fgets_2024" 
+						target="_blank"
+					>
+						<i class="fa-solid fa-arrow-right"></i> 
+						repo at Github
+					</a>
+				</div>
+				<!-- CARD-END -->
+
+				<!-- CARD-START -->
+				<div class="card">
+					<div class="card-heading">
+						<h4>printf()</h4>
+						<time datetime="2024-09">Oct 2024</time>
+					</div>
+					<p>
+						I wrote a stripped down version of standard printf() function:
+					</p>
+					<hr class="hr-drk">
+					<ul>
+						<li>
+							<i class="fa-solid fa-check"></i>  
+							Function with varying number of arguments
+						</li>
+						<li>
+							<i class="fa-solid fa-check"></i>  
+							"Under the hood" experience
+						</li>
+						<li>
+							<i class="fa-solid fa-check"></i>  
+							First naive input parsing made
+						</li>
+					</ul>
+					<a 	class="btn btn-mid" 
+						href="https://github.com/romolog/C__under_the_hood__printf_2024" 
+						target="_blank"
+					>
+						<i class="fa-solid fa-arrow-right"></i> 
+						repo at Github
+					</a>
+				</div>
+				<!-- CARD-END -->
+
+				<!-- CARD-START -->
+				<div class="card">
+					<div class="card-heading">
+						<h4>Library</h4>
+						<time datetime="2024-09">Sep 2024</time>
+					</div>
+					<p>
+						I wrote a bunch of basic functions from scratch 
+						and put them into library:
+					</p>
+					<hr class="hr-drk">
+					<ul>
+						<li>
+							<i class="fa-solid fa-check"></i>  
+							42 functions written
+						</li>
+						<li>
+							<i class="fa-solid fa-check"></i>  
+							"Under the hood" experience
+						</li>
+						<li>
+							<i class="fa-solid fa-check"></i>  
+							Baby steps are made
+						</li>
+					</ul>
+					<a 	class="btn btn-mid" 
+						href="https://github.com/romolog/C__under_the_hood__basic_functions_library_2024" 
+						target="_blank"
+					>
+						<i class="fa-solid fa-arrow-right"></i> 
+						repo at Github
+					</a>
+				</div>
+				<!-- CARD-END -->
+			</div>
+		</div>
+	</section>
+<!-- END C PROJECTS  -->
+
+<!-- C++ PROJECTS  -->
+	<section class="projects terminal" id="CPP_projects">
+		<div class="container mb-40">
+			<h3 class="projects-heading text-xxl">C++ projects</h3>
+			<div class="projects-grid">
+
+				<!-- CARD-START -->
+				<div class="card">
+					<div class="card-heading">
+						<h4>Webserver</h4>
+						<time datetime="2024-09">Dec 2025</time>
+					</div>
+					<p>
+						I wrote a web server from scratch to serve a static website:
+					</p>
+					<hr class="hr-drk">
+					<ul>
+						<li>
+							<i class="fa-solid fa-check"></i>  
+							Following RFC standards
+						</li>
+						<li>
+							<i class="fa-solid fa-check"></i>  
+							Parsing input configuration file
+						</li>
+						<li>
+							<i class="fa-solid fa-check"></i>  
+							Network programming
+						</li>
+						<li>
+							<i class="fa-solid fa-check"></i>  
+							Easily scalable architechture
+						</li>
+					</ul>
+					<a 	class="btn btn-mid" 
+						href="https://github.com/romolog/CPP__webserver__simple_2025" 
+						target="_blank"
+					>
+						<i class="fa-solid fa-arrow-right"></i> 
+						repo at Github
+					</a>
+				</div>
+				<!-- CARD-END -->
+
+				<!-- CARD-START -->
+				<!-- <div class="card">
+					<div class="card-heading">
+						<h4>C++ PROJECT</h4>
+						<time datetime="2024-09">Feb 2025</time>
+					</div>
+					<p>
+						DESCRIPTION:
+					</p>
+					<hr class="hr-drk">
+					<ul>
+						<li>
+							<i class="fa-solid fa-check"></i>  
+							1
+						</li>
+						<li>
+							<i class="fa-solid fa-check"></i>  
+							2
+						</li>
+						<li>
+							<i class="fa-solid fa-check"></i>  
+							3
+						</li>
+						<li>
+							<i class="fa-solid fa-check"></i>  
+							4
+						</li>
+					</ul>
+					<a 	class="btn btn-mid" 
+						href="https://github.com/romolog/C__under_the_hood__basic_functions_library_2024" 
+						target="_blank"
+					>
+						<i class="fa-solid fa-arrow-right"></i> 
+						repo at Github
+					</a>
+				</div> -->
+				<!-- CARD-END -->
+
+				<!-- CARD-START -->
+				<div class="card">
+					<div class="card-heading">
+						<h4>Ford-Johnson algorithm</h4>
+						<time datetime="2024-09">May 2025</time>
+					</div>
+					<p>
+						I implemented a merge-insertion Ford-Johnson algorithm 
+						and compare vector and deque containers speed to sort:
+					</p>
+					<hr class="hr-drk">
+					<ul>
+						<li>
+							<i class="fa-solid fa-check"></i>  
+							Algorithms
+						</li>
+						<!-- <li>
+							<i class="fa-solid fa-check"></i>  
+							2
+						</li>
+						<li>
+							<i class="fa-solid fa-check"></i>  
+							3
+						</li>
+						<li>
+							<i class="fa-solid fa-check"></i>  
+							4
+						</li> -->
+					</ul>
+					<a 	class="btn btn-mid" 
+						href="https://github.com/romolog/CPP__algorithm__ford-johnson_2025.git" 
+						target="_blank"
+					>
+						<i class="fa-solid fa-arrow-right"></i> 
+						repo at Github
+					</a>
+				</div>
+				<!-- CARD-END -->
+
+				<!-- CARD-START -->
+				<div class="card">
+					<div class="card-heading">
+						<h4>Diamond trap solved</h4>
+						<time datetime="2024-09">May 2025</time>
+					</div>
+					<p>
+						I explored multiple inheritance 
+						and solved Diamond trap to controll inheritance 
+						from both parent classes
+						without changing parent classes:
+					</p>
+					<hr class="hr-drk">
+					<ul>
+						<li>
+							<i class="fa-solid fa-check"></i>  
+							Multiple inheritance
+						</li>
+						<li>
+							<i class="fa-solid fa-check"></i>  
+							Diamond trap solved
+						</li>
+						<!-- <li>
+							<i class="fa-solid fa-check"></i>  
+							3
+						</li>
+						<li>
+							<i class="fa-solid fa-check"></i>  
+							4
+						</li> -->
+					</ul>
+					<a 	class="btn btn-mid" 
+						href="https://github.com/romolog/CPP__under_the_hood__diamond_trap_2025.git" 
+						target="_blank"
+					>
+						<i class="fa-solid fa-arrow-right"></i> 
+						repo at Github
+					</a>
+				</div>
+				<!-- CARD-END -->
+
+
+				<!-- CARD-START -->
+				<div class="card">
+					<div class="card-heading">
+						<h4>Overloading operators</h4>
+						<time datetime="2024-09">Apr 2025</time>
+					</div>
+					<p>
+						I "re-invented" a class of fixed point numbers 
+						with overloaded operators for it:
+					</p>
+					<hr class="hr-drk">
+					<ul>
+						<li>
+							<i class="fa-solid fa-check"></i>  
+							Overloading operators
+						</li>
+						<li>
+							<i class="fa-solid fa-check"></i>  
+							Templates
+						</li>
+					</ul>
+					<a 	class="btn btn-mid" 
+						href="https://github.com/romolog/CPP__under_the_hood__overloading_operators_2025" 
+						target="_blank"
+					>
+						<i class="fa-solid fa-arrow-right"></i> 
+						repo at Github
+					</a>
+				</div>
+				<!-- CARD-END -->
+
+				<!-- CARD-START -->
+				<div class="card">
+					<div class="card-heading">
+						<h4>Replace string in a file</h4>
+						<time datetime="2024-09">Apr 2025</time>
+					</div>
+					<p>
+						I wrote a short function to open file, find and replace substring, close file:
+					</p>
+					<hr class="hr-drk">
+					<ul>
+						<li>
+							<i class="fa-solid fa-check"></i>  
+							String handling by C++ tools
+						</li>
+						<li>
+							<i class="fa-solid fa-check"></i>  
+							File handling
+						</li>
+						<li>
+							<i class="fa-solid fa-check"></i>  
+							Exceptions
+						</li>
+						<li>
+							<i class="fa-solid fa-check"></i>  
+							Streams
+						</li>
+					</ul>
+					<a 	class="btn btn-mid" 
+						href="https://github.com/romolog/CPP__under_the_hood__replace_substr_file_2025" 
+						target="_blank"
+					>
+						<i class="fa-solid fa-arrow-right"></i> 
+						repo at Github
+					</a>
+				</div>
+				<!-- CARD-END -->
+			</div>
+		</div>
+	</section>
+<!-- END C++ PROJECTS  -->
+
+<!-- FOOTER -->
+	<footer class="footer bg-drk">
+		<div class="container">
+			<a class="btn btn-yel" href="https://www.linkedin.com/in/romolog" target="_blank"> 
+				<i class="fab fa-linkedin"></i>LinkedIn
+			</a>
+			
+			<span class="ml-20 mr-20">
+				&copy; 2025 Roman Ponomarev
+			</span>
+			
+			<a class="btn btn-mid-drk mt-20" href="#" onclick="scrollToSection('navbar'); return false;"> 
+				GoTo Top <i class="fas fa-arrow-up"></i>
+			</a>
+		</div>
+	</footer>
+<!-- END FOOTER -->
+
+	<script src="js/main.js"></script>
+</body>
+</html>
