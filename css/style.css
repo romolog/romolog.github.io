@@ -11,6 +11,7 @@ html {
 :root {
 
 	--bg-drk: #002211;
+	--bg-drk-lgt: #114411;
 	--bg-mid: #225511;
 	--bg-mid-lgt: #336611;
 	--bg-lgt-drk: #89ab66;	
@@ -38,6 +39,10 @@ a {
 
 ul {
 	list-style: none;
+}
+
+li {
+	text-align: justify;
 }
 
 img {
@@ -159,9 +164,6 @@ img {
 }
 
 .developer {
-	background: url('../images/developer_with_tool.png') no-repeat;
-	background-size: cover;
-	background-position: center bottom;
 	color: var(--font-yel);
 }
 
@@ -325,6 +327,16 @@ img {
 	margin-top: 40px;
 }
 
+.stripes {
+	background: repeating-linear-gradient(
+		to bottom,
+		var(--bg-drk),
+		var(--bg-drk) 4px,
+		var(--bg-drk-lgt) 2px,
+		var(--bg-drk-lgt) 6px
+  );
+}
+
 table {
 	margin-bottom: 40px;
 	margin-top: 10px;
@@ -437,9 +449,6 @@ td {
 /* Media Queries */
 @media (max-width: 1470px) {
 	.developer {
-	background: url('../images/screen.png') no-repeat;
-	background-size: cover;
-	background-position: center bottom;
 	color: var(--font-yel);
 	}
 
@@ -462,9 +471,6 @@ td {
 	}
 
 	.developer {
-		background: url('../images/screen.png') no-repeat;
-		background-size: cover;
-		background-position: center bottom;
 		color: var(--font-yel);
 	}
 
