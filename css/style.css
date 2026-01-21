@@ -107,10 +107,9 @@ img {
 }
 
 .hero .container {
-	background: url('../images/terminal.jpg') no-repeat;
 	background-size: contain;
 	background-position: center bottom;
-	height: 540px;
+	height: 500px;
 }
 
 .hero .hero-heading {
@@ -118,13 +117,17 @@ img {
 }
 
 .hero .hero-content {
-	width: 70%;
+	width: 100%;
 }
 
 .hero .hero-text {
 	margin-bottom: 20px;
 }
 
+#laptop {
+	text-align: right;
+	padding-right: 100px;
+}
 
 /* PROJECTS */
 .projects {
