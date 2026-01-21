@@ -171,7 +171,6 @@ img {
 }
 
 .terminal {
-	background: url('../images/screen.png') no-repeat;
 	background-size: cover;
 	background-position: center top;
 	color: var(--font-yel);
@@ -501,10 +500,9 @@ td {
 	}
 
 	.hero .container {
-		background: url('../images/mobile_terminal.jpg') no-repeat;
 		background-size: 420px 400px;
 		background-position: bottom;
-		height: 770px;
+		height: 550px;
 	}
 
 	.hero .hero-content,
