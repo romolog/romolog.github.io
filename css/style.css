@@ -15,7 +15,7 @@ html {
 	--bg-mid: #225511;
 	--bg-mid-lgt: #336611;
 	--bg-lgt-drk: #89ab66;	
-	--bg-lgt: #abcd88;
+	--bg-lgt: #afc577;
 	--font-yel: #ffaa00;
 	--font-yel-hover: #ffff00;
 	--font-lgt: #abcd88;
@@ -107,6 +107,7 @@ img {
 }
 
 .hero .container {
+	background: url('../images/terminal.jpg') no-repeat;
 	background-size: contain;
 	background-position: center bottom;
 	height: 500px;
@@ -499,9 +500,10 @@ td {
 	}
 
 	.hero .container {
+		background: none;
 		background-size: 420px 400px;
 		background-position: bottom;
-		height: 550px;
+		height: 350px;
 	}
 
 	.hero .hero-content,
