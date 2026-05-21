@@ -79,7 +79,7 @@ img {
 }
 
 .navlink:hover {
-	color: var(--font-lgt-hover);
+	color: var(--font-yel-hover);
 }
 
 .navbar ul li a i {
